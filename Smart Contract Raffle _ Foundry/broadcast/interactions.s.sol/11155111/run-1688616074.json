@@ -1,0 +1,96 @@
+{
+  "transactions": [
+    {
+      "hash": "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/2fR3u9SJQSN4ZDaME1ckZAgygq4NfKgb",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x01e07a5371035bec2a86e1ff9eaac6b002edb102",
+        "to": "0x779877a7b0d9e8603169ddbd7836e478b4624789",
+        "gas": "0x13fbe",
+        "value": "0x0",
+        "data": "0x4000aea00000000000000000000000008103b0a8a00be2ddc778e6e7eaa21791cd3646250000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000d5e",
+        "nonce": "0xc2",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514",
+      "transactionIndex": "0x5",
+      "blockHash": "0xc9e033ea21a06cc3e3be72f06ba58cc0496e9b7b7bef2efa1f740e6ab1c6df55",
+      "blockNumber": "0x3a8077",
+      "from": "0x01e07A5371035BeC2A86e1Ff9eaAC6b002edB102",
+      "to": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+      "cumulativeGasUsed": "0x21330a",
+      "gasUsed": "0xe77e",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x00000000000000000000000001e07a5371035bec2a86e1ff9eaac6b002edb102",
+            "0x0000000000000000000000008103b0a8a00be2ddc778e6e7eaa21791cd364625"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+          "blockHash": "0xc9e033ea21a06cc3e3be72f06ba58cc0496e9b7b7bef2efa1f740e6ab1c6df55",
+          "blockNumber": "0x3a8077",
+          "transactionHash": "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514",
+          "transactionIndex": "0x5",
+          "logIndex": "0xa",
+          "removed": false
+        },
+        {
+          "address": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+          "topics": [
+            "0xe19260aff97b920c7df27010903aeb9c8d2be5d310a2c67824cf3f15396e4c16",
+            "0x00000000000000000000000001e07a5371035bec2a86e1ff9eaac6b002edb102",
+            "0x0000000000000000000000008103b0a8a00be2ddc778e6e7eaa21791cd364625"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000d5e",
+          "blockHash": "0xc9e033ea21a06cc3e3be72f06ba58cc0496e9b7b7bef2efa1f740e6ab1c6df55",
+          "blockNumber": "0x3a8077",
+          "transactionHash": "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514",
+          "transactionIndex": "0x5",
+          "logIndex": "0xb",
+          "removed": false
+        },
+        {
+          "address": "0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625",
+          "topics": [
+            "0xd39ec07f4e209f627a4c427971473820dc129761ba28de8906bd56f57101d4f8",
+            "0x0000000000000000000000000000000000000000000000000000000000000d5e"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008ac7230489e8000000000000000000000000000000000000000000000000000098a7d9b8314c0000",
+          "blockHash": "0xc9e033ea21a06cc3e3be72f06ba58cc0496e9b7b7bef2efa1f740e6ab1c6df55",
+          "blockNumber": "0x3a8077",
+          "transactionHash": "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514",
+          "transactionIndex": "0x5",
+          "logIndex": "0xc",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x0004001400000000000000000000000000000000000000020000000002000000000000000000800000000000000000000000000000000040000000000000000000000000000000000000000800000000000000000000000000002000000000000000000000000000000000000000000000000000400000000000001000000000000001000c000022000000000000800010000020000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000002000000000000000000000000000000000000004100000000000000400000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0xb2d05e0b"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "C:/Developer/1. Bootcamp Code/1. Web3 - Solidity Contracts/3. Patrick C - Foundry/SmartContractLottery\\broadcast\\interactions.s.sol\\11155111\\run-latest.json",
+  "returns": {},
+  "timestamp": 1688616074,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "39651a4"
+}

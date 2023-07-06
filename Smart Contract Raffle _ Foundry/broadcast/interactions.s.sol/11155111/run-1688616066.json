@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "hash": "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/2fR3u9SJQSN4ZDaME1ckZAgygq4NfKgb",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x01e07a5371035bec2a86e1ff9eaac6b002edb102",
+        "to": "0x779877a7b0d9e8603169ddbd7836e478b4624789",
+        "gas": "0x13fbe",
+        "value": "0x0",
+        "data": "0x4000aea00000000000000000000000008103b0a8a00be2ddc778e6e7eaa21791cd3646250000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000d5e",
+        "nonce": "0xc2",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x8df15ab9583d81df4d3f6df8923abc0537f548b2c0fc47c5e5e84261a7e92514"
+  ],
+  "path": "C:/Developer/1. Bootcamp Code/1. Web3 - Solidity Contracts/3. Patrick C - Foundry/SmartContractLottery\\broadcast\\interactions.s.sol\\11155111\\run-latest.json",
+  "returns": {},
+  "timestamp": 1688616066,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "39651a4"
+}
